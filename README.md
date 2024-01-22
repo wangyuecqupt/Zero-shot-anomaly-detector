@@ -11,8 +11,11 @@ Requirements
   	conda activate zsad
   	pip install -r requirements.txt
 		
-### 注意!!!下面所有语法的提示我都先用小标题提醒了!!! 
-
+Required Data 
+-----------------------------------
+ To evaluate/train zsda, you will need to download the required datasets.
+	1.[VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br />
+ 
 ### 单行文本框
     这是一个单行的文本框,只要两个Tab再输入文字即可
         
