@@ -31,5 +31,5 @@ Required Data
     python ./inference.py path/to/test_image path/to/template_image
 
 ### pretrained models
-1.[pretrained on VOC2012](http://www.google.com)<br />
+1.[pretrained on VOC2012](https://pan.baidu.com/s/1emCdEGXfzELTubF3xl8DnQ?pwd=attp)<br />:attp
 2.[finetuned on DeepPCB](http://www.google.com)<br />
