@@ -21,12 +21,16 @@ Required Data
 ### Pretraining on VOC2012
     python ./train.py --bg_data path/to/VOC2012
         
-### evaluation on DeepPCB  
+### Evaluation on DeepPCB  
     python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path/to/DeepPCB
+    ### This step only generates predicted bounding box results, and metric calculation needs to be done in [DeepPCB](https://github.com/tangsanli5201/DeepPCB)<br />.
 
-### finetune on DeepPCB(optional)  
+### Finetune on DeepPCB(optional)  
     python ./experiment_on_pcb.py --run_mode train --DeepPCB_path path/to/DeepPCB
 
+### Demo on image pair 
+    python ./inference.py path/to/test_image path/to/template_image
+    
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
     public class HelloWorld {
 
