@@ -19,10 +19,10 @@ Required Data
 2.[DeepPCB](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)<br />
   
 ### Pretraining on VOC2012
-    python ./train.py --bg_data path to the VOC2012
+    python ./train.py --bg_data path/to/VOC2012
         
 ### evaluation on DeepPCB  
-    python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path to the DeepPCB
+    python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path/to/DeepPCB
 
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
     public class HelloWorld {
