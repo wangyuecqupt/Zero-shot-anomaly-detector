@@ -15,8 +15,8 @@ Required Data
 -----------------------------------
   To evaluate/train zsda, you will need to download the required datasets.
   
-	1.[VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br />
- 	2.[DeepPCB]([http://guoyunsky.iteye.com](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)<br />
+1.[VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br />
+2.[DeepPCB]([http://guoyunsky.iteye.com](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)<br />
   
 ### 单行文本框
     这是一个单行的文本框,只要两个Tab再输入文字即可
