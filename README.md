@@ -18,13 +18,11 @@ Required Data
 1.[VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br />
 2.[DeepPCB](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)<br />
   
-### 单行文本框
-    这是一个单行的文本框,只要两个Tab再输入文字即可
+### Pretraining on VOC2012
+    python ./train.py --bg_data path to the VOC2012
         
-### 多行文本框  
-    这是一个有多行的文本框
-    你可以写入代码等,每行文字只要输入两个Tab再输入文字即可
-    这里你可以输入一段代码
+### evaluation on DeepPCB  
+    python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path to the DeepPCB
 
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
     public class HelloWorld {
