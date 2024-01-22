@@ -13,8 +13,7 @@ Requirements
 		
 Required Data 
 -----------------------------------
- To evaluate/train zsda, you will need to download the required datasets.
- 
+  To evaluate/train zsda, you will need to download the required datasets.
 	1.[VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br />
  
 ### 单行文本框
