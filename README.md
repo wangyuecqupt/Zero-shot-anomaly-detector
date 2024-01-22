@@ -1,14 +1,11 @@
-Pytorch implementation of 'A Zero-shot connector anomaly detection approach based on similarity-contrast learning'
-题
+Zero-shot connector anomaly detector
 ===================================
-  大标题一般显示工程名,类似html的\<h1\><br />
-  你只要在标题下面跟上=====即可
+  Pytorch implementation of 'A Zero-shot connector anomaly detection approach based on similarity-contrast learning'
 
   
-中标题
+Requirements
 -----------------------------------
-  中标题一般显示重点项,类似html的\<h2\><br />
-  你只要在标题下面输入------即可
+  The code has been tested with pytorch 1.7.1 and Cuda 10.1.
   
 ### 小标题
   小标题类似html的\<h3\><br />
