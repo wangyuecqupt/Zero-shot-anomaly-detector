@@ -7,11 +7,10 @@ Requirements
 -----------------------------------
   The code has been tested with python 3.7, pytorch 1.7.1 and Cuda 10.1.
   
-		##conda create -n zsad python=3.7.13
-		###三级标题conda activate zsad
-		####四级标题 pip install -r requirements.txt
-		#####五级标题
-		######六级标题
+		conda create -n zsad python=3.7.13
+		conda activate zsad
+		pip install -r requirements.txt
+		
 ### 注意!!!下面所有语法的提示我都先用小标题提醒了!!! 
 
 ### 单行文本框
