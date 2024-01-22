@@ -29,23 +29,10 @@ Required Data
 
 ### Demo on image pair 
     python ./inference.py path/to/test_image path/to/template_image
-    
-### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
-    public class HelloWorld {
 
-      /**
-      * @param args
-	    */
-	    public static void main(String[] args) {
-		    System.out.println("HelloWorld!");
-
-	    }
-
-    }
-
-### 链接
-1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
-2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
+### pretrained models
+1.[pretrained on VOC2012](http://www.google.com)<br />
+2.[finetuned on DeepPCB](http://www.google.com)<br />
 
 ###只是显示百度的图片
 ![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
