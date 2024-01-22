@@ -21,9 +21,8 @@ Required Data
 ### Pretraining on VOC2012
     python ./train.py --bg_data path/to/VOC2012
         
-### Evaluation on DeepPCB  
+### Evaluation on DeepPCB(This step only generates predicted bounding box results, and metric calculation needs to be done in [DeepPCB](https://github.com/tangsanli5201/DeepPCB)<br />.)
     python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path/to/DeepPCB
-    ### This step only generates predicted bounding box results, and metric calculation needs to be done in [DeepPCB](https://github.com/tangsanli5201/DeepPCB)<br />.
 
 ### Finetune on DeepPCB(optional)  
     python ./experiment_on_pcb.py --run_mode train --DeepPCB_path path/to/DeepPCB
