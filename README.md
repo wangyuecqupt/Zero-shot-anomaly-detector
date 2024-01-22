@@ -24,7 +24,7 @@ Required Data
 ### evaluation on DeepPCB  
     python ./experiment_on_pcb.py --run_mode val --DeepPCB_path path/to/DeepPCB
 
-### finetune on DeepPCB  
+### finetune on DeepPCB(optional)  
     python ./experiment_on_pcb.py --run_mode train --DeepPCB_path path/to/DeepPCB
 
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
